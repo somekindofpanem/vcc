@@ -1,0 +1,14 @@
+[package]
+name = "vcc"
+version = "0.1.0"
+description = "🔥 VCC - A build-system and package manager for VCC compilers"
+authors = ["Clemens <panemlp@gmx.net>"]
+edition = "cxx20"
+compiler = "vcc"
+flags = ""
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+std = "latest" # Not needed, this is just here to a) ensure that std stays up-to-date and b) to show how to add dependencies
